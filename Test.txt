@@ -1,1 +1,2 @@
-Hello to git
+Hello to git!
+
