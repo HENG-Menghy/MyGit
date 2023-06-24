@@ -1,0 +1,102 @@
+/* Style on BorderShorthand html file */
+p.dotted{
+    border: 1px dotted red;
+}
+p.dashed{
+    border: 2px dashed blue;
+}
+p.solid{
+    border: 3px solid aqua;
+}
+p.double{
+    border: 4px double powderblue;
+}
+p.groove{
+    border: 5px groove gray;
+}
+p.ridge{
+    border: 6px ridge green;
+}
+p.inset{
+    border: thin inset pink;
+}
+p.outset{
+    border: medium outset hotpink;
+}
+p.none{
+    border: none;
+}
+p.hidden{
+    border: hidden;
+}
+p.mix{
+    border-style: dotted solid dashed double;
+    border-width: thick;
+    border-color: red aqua blue powderblue;
+} 
+
+
+/* Style on BorderSide html file */
+  /* do not use shorthand */
+p.different-2{
+    border-top-style: dotted;
+    border-top-color: red;
+    border-bottom-style: dotted;
+    border-bottom-color: blue;
+    border-right-style: solid;
+    border-right-color: powderblue;
+    border-left-style: solid;
+    border-left-color: hotpink;
+}
+p.different-3{
+    border-top-style: groove;
+    border-top-color: greenyellow;
+    border-right-style: ridge;
+    border-bottom-style: groove;
+    border-left-style: outset;
+}
+p.all-different{
+    border-top-style: inset;
+    border-right-style: none;
+    border-bottom-style: hidden;
+    border-left-style: double;
+}
+
+  /* use shorthand */
+p.different-2{
+    border-style: dotted solid;
+    border-color: red powderblue blue hotpink;
+}
+p.different-3{
+    border-style: groove ridge groove outset;
+    border-top-color: greenyellow ;
+}
+p.all-different{
+    border: inset none hidden double;
+}
+
+/* Style on RoundedBorder html file*/
+p.normal{
+    border: 2px solid red;
+    padding: 5px;
+}
+p.round{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
+p.round1{
+    border: 2px solid red;
+    border-radius: 15px 0;
+    padding: 5px;
+}
+p.round2{
+    border: 2px solid red;
+    border-radius: 15px 10px;
+    padding: 5px;
+}
+p.round3{
+    border: 2px solid red;
+    border-radius: 10px 15px 10px;
+    padding: 5px;
+}
