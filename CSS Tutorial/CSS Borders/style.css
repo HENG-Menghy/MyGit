@@ -68,8 +68,8 @@ p.different-2{
     border-color: red powderblue blue hotpink;
 }
 p.different-3{
-    border-style: groove ridge groove outset;
-    border-top-color: greenyellow ;
+    border-style: groove ridge ridge groove;
+    border-color: greenyellow orange hotpink;
 }
 p.all-different{
     border: inset none hidden double;
