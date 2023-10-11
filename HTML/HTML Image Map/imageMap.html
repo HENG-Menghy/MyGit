@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Image Map</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        img{
+            margin: 10px 200px;
+        }
+    </style>
 </head>
 <body>
     <h2>HTML Image - Image Map</h2>
     <img src="./workplace.jpg" alt="Workplace" usemap="#workmap">
     <map name="workmap">
-        <area shape="rect" coords="34,44,270,350" href="./mac.jpg" alt="Computer">
+        <area shape="rect" coords="36,43,272,187" href="./mac.jpg" alt="Computer">
+        <area shape="rect" coords="55,201,256,287" href="./keyboard.jpg" alt="Keyboard">
         <area shape="rect" coords="290,172,333,250" href="./cellphone.jpg" alt="Phone">
-        <area shape="circle" coords="337,300,44" href="./coffeehouse2.jpg" alt="Coffee">
+        <area shape="circle" coords="336,301,46" href="./coffeehouse2.jpg" alt="Coffee">
+        <area shape="polygon" coords="0,208 32,219 1,285 " href="./Reading book with beautiful view.jpg" alt="Book" >
     </map>
 </body>
 </html>
